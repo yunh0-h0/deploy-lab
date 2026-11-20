@@ -1,0 +1,3 @@
+-- 실행 원본은 migrations/001_records.sql 입니다.
+-- 루트에서 npm run migrate 로 명시적으로 적용합니다.
+-- 서버 시작과 /db-check는 스키마를 자동 생성하지 않습니다.

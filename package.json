@@ -1,0 +1,14 @@
+{
+  "name": "netsvc-deploy-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "web": "npm run dev --prefix apps/web",
+    "server": "npm run dev --prefix apps/server",
+    "new-migration": "node apps/server/new-migration.js",
+    "migrate": "npm run db:migrate --prefix apps/server"
+  },
+  "engines": {
+    "node": ">=22.12 <27"
+  }
+}
